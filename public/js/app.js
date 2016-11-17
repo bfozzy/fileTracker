@@ -5,7 +5,7 @@ $urlRouterProvider.otherwise("/");
 
 $stateProvider
     .state("home", {
-      template: "<team-directive></team-directive>",
+      templateUrl: "./templates/stateTemplates/home.html",
       url: "/"
     });
   });

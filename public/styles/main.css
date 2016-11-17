@@ -1,0 +1,52 @@
+body{
+  background-color: #0076C2;
+  margin: 0px;
+  overflow-x: auto;
+
+}
+/*NAV*/
+.header-wrapper{
+  width: 100%;
+  height: 15vh;
+  margin: 0px;
+  padding: 0px;
+}
+.main-header{
+  width: 100%;
+  height: 5vh;
+  background-color: #0064A5;
+  display: flex;
+}
+.header-title{
+  color: #282424;
+}
+
+
+
+
+
+.add-team-member-container{
+
+}
+
+.team-member-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member-container{
+  width: 270px;
+  height: auto;
+  background-color: #E2E4E6;
+  flex-direction: column;
+  border-radius: 3px;
+      margin: 0 5px;
+}
+.team-member-header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.member-name{
+  padding: 5px;
+}

@@ -1,0 +1,15 @@
+
+<div class="team-member-wrapper">
+  <div ng-repeat="member in team"class="team-member-container">
+    <header class="team-member-header">
+    <button ng-click="deleteTeamMember(member.id)"type="button" name="button">x</button>
+    <div class="member-name">
+      {{member.name}}
+    </div>
+  </header>
+
+    <input ng-model="fileName" type="text" name="name" value=""> <button ng-click="addFile(fileName)" type="button" name="button">Add File</button>
+  </div>
+</div>
+
+<!-- <button ng-click="getTeamNow()" type="button" name="button">get team</button> -->
